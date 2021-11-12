@@ -48,3 +48,34 @@ text-align: left;
     padding: 0px 12px;
     width: 100%;
 }
+
+#education{
+    font-family: Visby CF;
+    color: black;
+    margin-top: 80px;
+}
+
+
+.education-title .bold{
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+
+.education-title .light{
+    font-weight: 100;
+    opacity: 70%;
+    margin-bottom: 15px;
+}
+
+.education-title h2{
+    font-size: 50px;
+}
+
+.education-title .tittle-snippet{
+    margin-bottom: 15px;
+    padding: 0 150px 0 0px;
+}
+
+.education-title a.read-more{
+    margin-top: 25px;
+}
