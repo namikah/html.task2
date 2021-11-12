@@ -1,0 +1,50 @@
+.top-header-left-side{
+padding: 20px 0px;
+text-align: left;
+}
+
+.top-header-left-side span{
+    font-family: Visby CF;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.top-header-right-side{
+    font-family: Visby CF;
+    text-align: right;
+}
+
+.top-header-right-side .social-media-icon{
+    display: inline-block;
+}
+
+.top-header-right-side .social-media-icon li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.top-header-right-side span{
+    display: inline-block;
+    color: black;
+    background-color: yellow;
+    padding: 20px 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.top-header-right-side span:hover{
+    background-color: orange;
+}
+
+.top-slider{
+    width: 100%;
+}
+
+.top-slider img{
+    padding: 0px 12px;
+    width: 100%;
+}
