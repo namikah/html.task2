@@ -1,3 +1,12 @@
+.fixed-image{
+    background-image: url("https://code.edu.az/media/settings/02.jpg");
+    height: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
 .top-header-left-side{
 padding: 20px 0px;
 text-align: left;
@@ -45,7 +54,6 @@ text-align: left;
 }
 
 .top-slider img{
-    padding: 0px 12px;
     width: 100%;
 }
 
@@ -73,19 +81,320 @@ text-align: left;
 
 .education-title .tittle-snippet{
     margin-bottom: 15px;
-    padding: 0 150px 0 0px;
+    padding: 0 100px 0 0px;
 }
 
 .education-title a.read-more{
     margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
 }
 
 .motion-design-2d{
     border: 1px solid gray;
     padding: 50%;
+    position: relative;
+}
+
+.motion-design-2d:hover{
+    background-color: crimson;
+}
+
+.motion-design-2d h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.motion-design-2d .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
 }
 
 .digital-marketting{
     border: 1px solid gray;
     padding: 50%;
+    position: relative;
 }
+
+.digital-marketting:hover{
+    background-color: darkmagenta;
+}
+
+.digital-marketting h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-marketting .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-memarliq{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+}
+
+.digital-memarliq:hover{
+    background-color: #fd7e14;
+}
+
+.digital-memarliq h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-memarliq .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.programming-area{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+}
+
+.programming-area:hover{
+    background-color: #007bff;
+}
+
+.programming-area h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.programming-area .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.graphic{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+}
+
+.graphic:hover{
+    background-color: #ffc107;
+}
+
+.graphic h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.graphic .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.system{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+}
+
+.system:hover{
+    background-color: #28a745;
+}
+
+.system h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.system .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.ux-ui{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+}
+
+.ux-ui:hover{
+    background-color: #ffc107;
+}
+
+.ux-ui h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.ux-ui .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+#statistics-student{
+    font-family: Visby CF;
+    color: black;
+    margin-top: 80px;
+    position: relative;
+}
+
+#statistics-student .student-count .first{
+    color: #323232;
+    font-weight: 200;
+    margin: 0 180px;
+    font-size: 37px;
+    background-color: white;
+    padding: 12px 50px;
+    top: 35%;
+    position: absolute;
+}
+
+#statistics-student .student-count .second{
+    color: #323232;
+    border: 4px solid #323232;
+    margin: 0 340px;
+    font-weight: 200;
+    font-size: 37px;
+    background-color: white;
+    padding: 12px 50px;
+    top: 48%;
+    position: absolute;
+}
+
+#why-code{
+    font-family: Visby CF;
+    color: black;
+    margin-top: 80px;
+}
+
+#why-code .title{
+    position: relative;
+}
+
+#why-code .title span {
+    font-family: Visby CF;
+    margin-bottom: -10px;
+    font-size: 50px;
+    display: block;
+    font-weight: 300;
+    color: #323232;
+  }
+
+#why-code .title h1 {
+    font-family: Visby CF;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  #why-code .title::after {
+    content: "";
+    background-image: linear-gradient(to right, green, rgb(255, 0, 191),yellow);
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    position: absolute;
+    top: 60%;
+    left: 0;
+  }
+
+  #why-code .title .description {
+    font-family: Visby CF;
+    text-align: justify;
+    margin-top: 60px;
+    width: 600px;
+  }
+
+  #why-code .col-items {
+    margin-top: 50px;
+    padding: 0px;
+    transition: all 0.3s;
+  }
+  
+  #why-code .col-items .content {
+    margin: 10% 10%;
+    color: #323232;
+  }
+
+  #why-code .col-items .content:hover{
+    text-decoration: underline crimson;
+  }
+
+  #why-code .col-items .content span{
+    color: #323232;
+    display: block;
+  }
+
+  #why-code .col-items .content p {
+    margin-top: 10%;
+    max-height: 70px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  #why-code .col:hover {
+    background-color: wheat;
+  }
