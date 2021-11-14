@@ -297,8 +297,8 @@ text-align: left;
 #statistics-student{
     font-family: Visby CF;
     color: black;
-    margin-top: 80px;
     position: relative;
+    padding: 80px 0px;
 }
 
 #statistics-student .student-count .first{
@@ -327,7 +327,7 @@ text-align: left;
 #why-code{
     font-family: Visby CF;
     color: black;
-    margin-top: 80px;
+    padding: 80px 0px;
 }
 
 #why-code .title{
@@ -407,3 +407,263 @@ text-align: left;
      width: 196px;
      object-fit: cover;
   }
+
+  #partners{
+    color: black;
+    padding: 80px 0px;
+  }
+
+  #partners .title{    
+    font-family: sans-serif;
+    color:#323232;
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  #partners .title .light{
+    font-size: 50px; 
+    font-weight: 100;
+    margin-bottom: -20px;
+  }
+
+  #partners .title .bold{
+    font-size: 50px; 
+    font-weight: 900;
+  }
+
+  #partners .title p{
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: center;
+      margin-top: 25px;
+      position: relative;
+  }
+
+  #partners .title p::after{
+    content: "";
+    background-image: linear-gradient(to right, green, rgb(255, 0, 191),yellow);
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    position: absolute;
+    margin: 30px 200px;
+    display: block;
+  }
+
+  #partners .partners-logo{
+      margin: 25% auto;
+      text-align: center;
+    }
+
+  #partners .partners-logo img{
+    height: 80px;
+    width: 200px;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+#partners .gelecek-burada{    
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  #partners .gelecek-burada h2{
+    font-size: 50px; 
+    font-weight: 900;
+    margin-bottom: -20px;
+  }
+
+  #partners .gelecek-burada p{
+      font-family: sans-serif;
+      color:#323232;
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: center;
+      margin: 30px 0px 10px 0px;
+  }
+
+  #partners .gelecek-burada a{
+      font-weight: 900;
+      color:#323232;
+      text-decoration: none;
+      position: relative;
+  }
+
+  #partners .gelecek-burada a::after{
+    content: "";
+    background-color: #ffe700;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    margin: 2px 150px;
+    display: block;
+  }
+
+  #contact-us{
+    margin-top: 150px;
+    color: black;
+    padding: 80px 0px;
+    background-image: url("https://code.edu.az/media/settings/Sualiniz-var_c3Xp8Bz.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+
+  #contact-us{
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    padding: 80px 0px;
+  }
+
+  #contact-us .title{    
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: left;
+  }
+
+  #contact-us .title .light{
+    font-size: 60px; 
+    font-weight: 100;
+    margin-bottom: -20px;
+  }
+
+  #contact-us .title .bold{
+    padding-left: 50px;
+    font-size: 60px; 
+    font-weight: 900;
+  }
+
+  #contact-us .title p{
+      padding-left: 50px;
+      font-size: 17px;
+      width: 390px;
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: left;
+      margin-top: 30px;
+  }
+
+  #contact-us .input-name{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-name .name{
+    width: 95%;
+    height: 60px;
+    border: 1px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-name .surname{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-phone{
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  #contact-us .input-phone .number{
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 30%;
+  }
+
+  #contact-us .input-phone .prefix{
+    width: 20%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+    left: 0px;
+    position: absolute;
+  }
+
+  #contact-us .input-tedris-proqrami{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-tedris-proqrami .tedris-proqrami{
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-submit-btn{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-submit-btn .submit{
+    cursor: pointer;
+    background-color: #ffe700;
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-submit-btn .submit:hover{
+    background-color:orange;
+  }
+
+  footer{
+      
+  }
+
+  #top-footer{
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    padding: 30px 0px;
+  }
+
+  #top-footer .top-menu{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  #top-footer .top-menu h4{
+    text-decoration: none;
+    padding-bottom: 15px;
+  }
+  
+  #middle-footer{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    padding: 30px 0px;
+  }
+
+  #middle-footer .middle-menu{
+    text-align: center;
+  }
+
+  #bottom-footer{
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    padding: 40px 0px ;
+  }
+
+  #bottom-footer .bottom-menu{
+    text-align: center;
+  }
+
+  #bottom-footer .bottom-menu .social-media-icon{
+    display: inline-block;
+}
+
+#bottom-footer .bottom-menu .social-media-icon li{
+    display: inline-block;
+    margin-left: 20px;
+}
