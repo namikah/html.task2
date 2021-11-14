@@ -95,10 +95,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .motion-design-2d:hover{
     background-color: crimson;
+    transform: scale(1.2);
 }
 
 .motion-design-2d h3{
@@ -124,10 +126,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .digital-marketting:hover{
     background-color: darkmagenta;
+    transform: scale(1.2);
 }
 
 .digital-marketting h3{
@@ -153,10 +157,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .digital-memarliq:hover{
     background-color: #fd7e14;
+    transform: scale(1.2);
 }
 
 .digital-memarliq h3{
@@ -182,10 +188,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .programming-area:hover{
     background-color: #007bff;
+    transform: scale(1.2);
 }
 
 .programming-area h3{
@@ -211,10 +219,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .graphic:hover{
     background-color: #ffc107;
+    transform: scale(1.2);
 }
 
 .graphic h3{
@@ -240,10 +250,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .system:hover{
     background-color: #28a745;
+    transform: scale(1.2);
 }
 
 .system h3{
@@ -269,10 +281,12 @@ text-align: left;
     border: 1px solid gray;
     padding: 50%;
     position: relative;
+    transition: .5s;
 }
 
 .ux-ui:hover{
     background-color: #ffc107;
+    transform: scale(1.2);
 }
 
 .ux-ui h3{
@@ -457,6 +471,23 @@ text-align: left;
       text-align: center;
     }
 
+    #partners .partners-logo [class*="logo"]{
+      filter: grayscale(1);
+      transition: .5s;
+    }
+
+    #partners .partners-logo .logo1:hover{
+      filter: grayscale(0);
+    }
+
+    #partners .partners-logo .logo2:hover{
+      filter: grayscale(0);
+    }
+
+    #partners .partners-logo .logo3:hover{
+      filter: grayscale(0);
+    }
+
   #partners .partners-logo img{
     height: 80px;
     width: 200px;
@@ -618,13 +649,8 @@ text-align: left;
     background-color:orange;
   }
 
-  footer{
-      
-  }
-
   #top-footer{
-    font-family: 'Times New Roman', Times, serif;
-    color:#323232;
+    font-family: sans-serif;
     padding: 30px 0px;
   }
 
@@ -633,14 +659,28 @@ text-align: left;
     margin-bottom: 60px;
   }
 
-  #top-footer .top-menu h4{
+  #top-footer .top-menu a{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8f8f8f;
+    position: relative;
+    transition: 1s;
     text-decoration: none;
+  }
+
+  #top-footer .top-menu a:hover{
+    text-decoration:underline;
+    text-decoration-color: yellow;
+  }
+
+  #top-footer .top-menu h4{
     padding-bottom: 15px;
   }
   
   #middle-footer{
     background-color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     color:#323232;
     padding: 30px 0px;
   }
@@ -649,19 +689,21 @@ text-align: left;
     text-align: center;
   }
 
+  #middle-footer .middle-menu a{
+    color:#323232;
+    text-decoration: none;
+  }
+
   #bottom-footer{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     color:#323232;
     padding: 40px 0px ;
   }
 
   #bottom-footer .bottom-menu{
     text-align: center;
+    line-height: 50px;
   }
-
-  #bottom-footer .bottom-menu .social-media-icon{
-    display: inline-block;
-}
 
 #bottom-footer .bottom-menu .social-media-icon li{
     display: inline-block;
